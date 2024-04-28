@@ -1,4 +1,4 @@
-document.querySelector('meta[name=Content-Security-Policy]').remove();
+document.querySelector('meta[http-equiv=Content-Security-Policy]').remove();
 const createIframe = document.createElement('iframe');
 createIframe.src = "https://www.youtube.com/embed/brwS_ZmVaRc";
 createIframe.width = "560";
